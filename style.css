@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #52579d;
 }
 
 body {
@@ -15,15 +15,15 @@ body {
 
 
 body::before {
-    background-image: url("img/code.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    background-image: url("https://static.tumblr.com/joafo27/uL4s7ioqg/cod.png");
+    background-repeat: repeat;
+    background-position: center;
     content: "";
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .container {
@@ -34,8 +34,8 @@ body::before {
     justify-content: space-between;
     border-radius: 24px;
     border: 1px solid #f0f1fc;
+    background: #e8f3f9;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
-    background-image: url("img/Ruido.png");
     background-size: 100% 100%;
     position: relative;
 }
@@ -55,9 +55,9 @@ body::before {
 
 .container__botao {
     border-radius: 16px;
-    background: #52579d;
+    background: #abe5e3;
     padding: 16px 24px;
-    width: 50%;
+    width: 100%;
     font-size: 24px;
     font-weight: 700;
     border: none;
@@ -73,7 +73,7 @@ body::before {
 }
 
 .container__input {
-    width: 50%;
+    width: 65%;
     height: 72px;
     border-radius: 16px;
     background-color: #FFF;
@@ -86,13 +86,13 @@ body::before {
 }
 
 .container__botoes {
-    width: 50%;
+    width: 65%;
     display: flex;
     gap: 2em;
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Ananda';
     font-size: 72px;
     padding-bottom: 3rem;
 }
@@ -108,13 +108,13 @@ button {
 }
 
 button:disabled {
-    background-color: #b0dce7;
+    background-color: #d3d4d9;
 }
 
 .image {
     position:right;
     margin-left:410px;
-    margin-top: -55px;
+    margin-top: -50px;
     max-width:110%;
     max-height:110%;
 }
